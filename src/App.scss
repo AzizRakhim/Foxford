@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body{
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 100% !important;
+  max-width: 1400px !important;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-track{
+  padding: 10px;
+  background-color: #ed80fd;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #5961F9;
+  border-radius: 50px;
+}

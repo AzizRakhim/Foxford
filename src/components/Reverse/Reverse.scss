@@ -1,0 +1,53 @@
+#reverse{
+  padding-bottom: 125px;
+  background: rgba(237, 128, 253, 0.05);
+}
+
+.reverse__item{
+  &:first-child{
+    margin-bottom: 9px;
+
+    .reverse__img-box{
+      margin-right: 25px;
+    }
+  }
+
+  &:last-child{
+    flex-direction: row-reverse;
+
+    .reverse__content{
+      margin-right: 57px;
+    }
+  }
+}
+
+.reverse__img-box{
+  width: 52%;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.reverse__content{
+  width: 48%;
+  max-width: 530px;
+}
+
+.reverse__title{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #010851;
+  margin-bottom: 38px;
+
+  &--pink{
+    color: #ed80fd;
+  }
+}
+
+.reverse__text{
+  margin-bottom: 20px;
+}

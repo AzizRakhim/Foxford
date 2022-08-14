@@ -1,0 +1,149 @@
+.header{
+  background-color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+  z-index: 99999;
+
+  &.active{
+    background-color: #ed80fd;
+  }
+}
+
+.header__logo-box{
+  margin-right: 72px;
+}
+
+.header__logo-link{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(134.65deg, #5961F9 3.4%, #EE9AE5 97.69%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+.yLink{
+  background-image: linear-gradient(134.65deg, #ff0000 3.4%, #0055ff 97.69%);
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.header__item{
+  &:not(:last-child){
+    margin-right: 47px;
+  }
+}
+
+.header__item-link{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #454868;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+
+  &::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: -3px;
+    background-color: #ed80fd;
+    transition: width 0.6s cubic-bezier(.25,.8,.25,1) 0s;
+  }
+
+  &:hover{
+    color: #ed80fd;
+
+    &::after{
+      width: 100%;
+      left: 0;
+      right: auto;
+    }
+  }
+}
+
+.header__lang-label{
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.white-me{
+  color: #fff;
+
+  &:hover{
+    color: #ff0000;
+  }
+
+  &::after{
+    background-color: #ff0000;
+  }
+}
+
+.lang{
+  color: #fff;
+
+  option{
+    color: #000;
+  }
+}
+
+.header__select{
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  padding-left: 6px;
+  padding-right: 9px;
+  background-color: transparent;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.header__btn{
+  background: #fff;
+  border: 2px solid #45486833;
+  border-radius: 10px;
+  padding: 11px 26px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #010851;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+
+  &:hover{
+    border-color: #fff;
+    background-color: #ed80fd;
+    color: #fff;
+  }
+}
+
+

@@ -1,0 +1,136 @@
+.footer{
+  background: #010851;
+  padding-top: 54px;
+  padding-bottom: 90px;
+}
+
+.footer__top{
+  padding-bottom: 68px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__info{
+  margin-right: 92px;
+  max-width: 481px;
+}
+
+.footer__logo-box{
+  margin-bottom: 24px;
+}
+
+.footer__logo-link{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-image: linear-gradient(134.65deg, #5961F9 3.4%, #EE9AE5 97.69%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.footer__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 41px;
+}
+
+.footer__btn{
+  padding: 18px 48px;
+}
+
+.footer__nav{
+  margin-right: 112px;
+}
+
+.ml{
+  width: 277px;
+  margin-left: auto;
+}
+
+.footer__list-title{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+}
+
+.footer__item{
+  &:not(:last-child){
+    margin-bottom: 12px;
+  }
+}
+
+.footer__item-link{
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer__bottom{
+  padding-top: 63px;
+}
+
+.footer__rights{
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__social-links{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footer__social-btn{
+  border: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+
+  i{
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}
+
+.footer__me{
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__me-colored{
+  color: #fff;
+  text-decoration: none;
+}
