@@ -5,6 +5,7 @@ import Better from "./components/Better/Better";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Plans from "./components/Plans/Plans";
+import Results from "./components/Results/Results";
 import Reverse from "./components/Reverse/Reverse";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Reverse />
           <Plans />
           <Advantages />
+          <Results />
           <Footer />
         </>}
       />
