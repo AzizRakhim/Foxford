@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import './App.scss';
 import Advantages from "./components/Advantages/Advantages";
 import Better from "./components/Better/Better";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Plans from "./components/Plans/Plans";
@@ -19,6 +20,7 @@ function App() {
           <Plans />
           <Advantages />
           <Results />
+          <Contact />
           <Footer />
         </>}
       />

@@ -92,3 +92,45 @@
   line-height: 40px;
   font-weight: 700;
 }
+
+.slider-btn{
+  width: 50px;
+  border-radius: 10px;
+  background: #323232;
+  color: #ed80fd;
+  height: 50px;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  right: 80px;
+
+  i{
+    margin: auto;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.prev-btn{
+  width: 50px;
+  border-radius: 10px;
+  background: #323232;
+  color: #ed80fd;
+  height: 50px;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+
+  i{
+    margin: auto;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

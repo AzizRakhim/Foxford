@@ -8,8 +8,11 @@ import hislat from "../assets/images/hislat.jpg";
 import yulduz from "../assets/images/yulduz.jpg";
 import malika from "../assets/images/malika.jpg";
 import oydina from "../assets/images/oydina.jpg";
-import mohlar from "../assets/images/oydina.jpg";
+import mohlar from "../assets/images/mohlar.jpg";
 import muslimTwo from "../assets/images/muslim-two.jpg";
+import aziza from "../assets/images/aziza.jpg";
+import asad from "../assets/images/asad.jpg";
+import javohir from "../assets/images/javohir.jpg";
 
 const initialArray = [
   {
@@ -132,6 +135,39 @@ const initialArray = [
     reading: "7.5",
     writing: "5.5",
     speaking: "6.5",
+  },
+  {
+    id: "12",
+    img: `${aziza}`,
+    name: "Azizaxon",
+    lastname: "Umarjonova",
+    bandscore: "7.0",
+    listening: "7.0",
+    reading: "7.5",
+    writing: "6.5",
+    speaking: "7.0",
+  },
+  {
+    id: "13",
+    img: `${asad}`,
+    name: "Asadbek",
+    lastname: "Ahmadjonov",
+    bandscore: "8.0",
+    listening: "8.5",
+    reading: "9.0",
+    writing: "7.0",
+    speaking: "6.5",
+  },
+  {
+    id: "14",
+    img: `${javohir}`,
+    name: "Javoxir",
+    lastname: "Raximjonov",
+    bandscore: "7.0",
+    listening: "8.0",
+    reading: "7.5",
+    writing: "6.0",
+    speaking: "6.0",
   },
 ];
 

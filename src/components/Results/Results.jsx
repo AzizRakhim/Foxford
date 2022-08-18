@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Results.scss";
 import useIelts from '../../store/ielts';
+import iroda from "../../assets/images/iroda.jpg";
 
 function Results() {
   function SampleNextArrow(props) {
@@ -33,14 +34,14 @@ function Results() {
   }
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SamplePrevArrow />,
+    prevArrow: <SampleNextArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -82,7 +83,7 @@ function Results() {
         <p className='results__text text-center general-text'>
           Our students won GRANTS to TOP universities in the world. They got accepted to international universities in the USA and other countries and got up to 8.5 IELTS scores. Many of our students are students of Westminster, MDIST and other universities in Uzbekistan.
         </p>
-        <Slider {...settings} className="results__list">
+        <Slider {...settings} className="results__list position-relative pt-5 pb-5">
           {ielts.map(item => {
             return (
               <div className='results__item' key={item.id}>
@@ -133,7 +134,7 @@ function Results() {
                         Bandscore:
                       </span>
                       <span className='results__real-band-score'>
-                        7.5
+                        {item.bandscore}
                       </span>
                     </div>
                   </div>
@@ -141,6 +142,60 @@ function Results() {
               </div>
             )
           })}
+          <div className='results__item'>
+            <div className='results__inner d-flex col-12'>
+              <div className='results__img-box col-6'>
+                <img src={iroda} alt={"Iroda"} />
+              </div>
+              <div className='results__content col-6'>
+                <span className='results__name'>
+                  {"Irodaxon"} <br /> Xusniddinova
+                </span>
+                <ul className='results__inner-list list-unstyled'>
+                  <li className="results__inner-item d-flex align-items-center justify-content-between">
+                    <span className='results__section'>
+                      Listening:
+                    </span>
+                    <span className='results__score'>
+                      21,0
+                    </span>
+                  </li>
+                  <li className="results__inner-item d-flex align-items-center justify-content-between">
+                    <span className='results__section'>
+                      Reading:
+                    </span>
+                    <span className='results__score'>
+                      17,0
+                    </span>
+                  </li>
+                  <li className="results__inner-item d-flex align-items-center justify-content-between">
+                    <span className='results__section'>
+                      Writing:
+                    </span>
+                    <span className='results__score'>
+                      18,75
+                    </span>
+                  </li>
+                  <li className="results__inner-item d-flex align-items-center justify-content-between">
+                    <span className='results__section'>
+                      Speaking:
+                    </span>
+                    <span className='results__score'>
+                      26,0
+                    </span>
+                  </li>
+                </ul>
+                <div className='results__band-score'>
+                  <span className='results__band-score-text'>
+                    Bandscore:
+                  </span>
+                  <span className='results__real-band-score'>
+                    101,75
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </Slider>
       </div>
     </section>

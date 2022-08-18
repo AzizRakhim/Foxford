@@ -1,0 +1,31 @@
+#contact{
+  padding-top: 60px;
+}
+
+.contact__list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.contact__title{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #010851;
+  margin-bottom: 42px;
+}
+
+.contact__text{
+  width: 470px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.contact__item{
+  background: linear-gradient(134.65deg, #5961F9 3.4%, #EE9AE5 97.69%);
+  border-radius: 16px;
+  border: none;
+  padding: 14px 46px;
+  width: 100%;
+}
