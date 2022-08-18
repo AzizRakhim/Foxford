@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import './App.scss';
+import Advantages from "./components/Advantages/Advantages";
 import Better from "./components/Better/Better";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
@@ -15,6 +16,7 @@ function App() {
           <Better />
           <Reverse />
           <Plans />
+          <Advantages />
           <Footer />
         </>}
       />
