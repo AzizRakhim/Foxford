@@ -5,6 +5,7 @@ import Better from "./components/Better/Better";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
+import Location from "./components/Location/Location";
 import Plans from "./components/Plans/Plans";
 import Results from "./components/Results/Results";
 import Reverse from "./components/Reverse/Reverse";
@@ -21,6 +22,7 @@ function App() {
           <Advantages />
           <Results />
           <Contact />
+          <Location />
           <Footer />
         </>}
       />
