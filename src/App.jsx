@@ -16,14 +16,14 @@ function App() {
       <Route path="/" element={
         <>
           <Hero />
-          <Better />
+          {/* <Better />
           <Reverse />
           <Plans />
           <Advantages />
           <Results />
           <Contact />
           <Location />
-          <Footer />
+          <Footer /> */}
         </>}
       />
     </Routes>

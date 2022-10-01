@@ -32,7 +32,7 @@ function Contact() {
               </button>
             </form>
             <p className='text-center contact__info'>
-              <i class='bx bx-info-circle'></i>
+              <i className='bx bx-info-circle'></i>
               Your data will not be given to third parties
             </p>
           </li>
