@@ -16,8 +16,8 @@ function App() {
       <Route path="/" element={
         <>
           <Hero />
-          {/* <Better />
-          <Reverse />
+          <Better />
+          {/* <Reverse />
           <Plans />
           <Advantages />
           <Results />
