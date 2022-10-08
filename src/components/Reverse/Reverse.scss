@@ -51,3 +51,39 @@
 .reverse__text{
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1250px) {
+  .reverse__title{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .reverse__title{
+    font-size: 28px;
+  }
+
+  .reverse__btn{
+    padding: 15px 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reverse__item{
+    flex-direction: column !important;
+
+    & > div{
+      width: 100%;
+      margin-right: 0 !important;
+
+      img{
+        width: 80%;
+      }
+    }
+  }
+
+  .reverse__img-box{
+    display: flex;
+    justify-content: center;
+  }
+}

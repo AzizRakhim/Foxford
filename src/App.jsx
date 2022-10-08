@@ -17,8 +17,8 @@ function App() {
         <>
           <Hero />
           <Better />
-          {/* <Reverse />
-          <Plans />
+          <Reverse />
+          {/* <Plans />
           <Advantages />
           <Results />
           <Contact />
