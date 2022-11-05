@@ -21,8 +21,8 @@ function App() {
           <Plans />
           <Advantages />
           <Results />
-          {/*<Contact />
-          <Location />
+          <Contact />
+          {/*<Location />
           <Footer /> */}
         </>}
       />
