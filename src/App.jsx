@@ -19,8 +19,8 @@ function App() {
           <Better />
           <Reverse />
           <Plans />
-          {/* <Advantages />
-          <Results />
+          <Advantages />
+          {/*<Results />
           <Contact />
           <Location />
           <Footer /> */}

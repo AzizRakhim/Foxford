@@ -18,7 +18,7 @@ function Advantages() {
           Each of our students will have the following advantages
         </p>
         <ul className='advantages__list d-flex flex-wrap list-unstyled'>
-          <li className="advantages__item d-flex col-4">
+          <li className="advantages__item d-flex col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <div className='advantages__img-box'>
               <img src={user} alt="user" />
             </div>
@@ -26,7 +26,7 @@ function Advantages() {
               Tutors with 3-5 years of experience in preparing students for exams. Students IELTS scores are up to 8.5.
             </div>
           </li>
-          <li className="advantages__item d-flex col-4">
+          <li className="advantages__item d-flex col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <div className='advantages__img-box'>
               <img src={check} alt="check" />
             </div>
@@ -34,7 +34,7 @@ function Advantages() {
               The only strong teaching system in Yangikurgan and one of the best in whole Uzbekistan.
             </div>
           </li>
-          <li className="advantages__item d-flex col-4">
+          <li className="advantages__item d-flex col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <div className='advantages__img-box'>
               <img src={cap} alt="cap" />
             </div>
@@ -42,7 +42,7 @@ function Advantages() {
               Support. The opportunity to have free additional lessons when the group does not understand certain topics
             </div>
           </li>
-          <li className="advantages__item d-flex col-4">
+          <li className="advantages__item d-flex col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <div className='advantages__img-box'>
               <img src={card} alt="card" />
             </div>
@@ -50,7 +50,7 @@ function Advantages() {
               A special online platform for parents and students to monitor their exam results and stay in touch with FoxFord news
             </div>
           </li>
-          <li className="advantages__item d-flex col-4">
+          <li className="advantages__item d-flex col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <div className='advantages__img-box'>
               <img src={users} alt="users" />
             </div>
@@ -58,7 +58,7 @@ function Advantages() {
               Cosy co-working spaces open 24/7 for students who want to stay and study after the classes
             </div>
           </li>
-          <li className="advantages__item d-flex col-4">
+          <li className="advantages__item d-flex col-xs-12 col-sm-12 col-md-6 col-lg-4">
             <div className='advantages__img-box'>
               <img src={handshake} alt="handshake" />
             </div>
