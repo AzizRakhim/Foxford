@@ -1,4 +1,4 @@
-.results__title{
+.results__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 120%;
@@ -6,16 +6,16 @@
   margin-bottom: 42px;
 }
 
-.results__text{
+.results__text {
   width: 50%;
   margin: 0 auto;
   margin-bottom: 3rem;
 }
 
-.results__img-box{
+.results__img-box {
   height: 420px;
 
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -23,17 +23,17 @@
   }
 }
 
-.results__list{
+.results__list {
   padding-bottom: 20px;
   background-color: #fff;
   cursor: pointer;
 }
 
-.results__item{
+.results__item {
   padding: 20px;
 }
 
-.results__inner{
+.results__inner {
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 30px;
@@ -41,14 +41,14 @@
   padding: 20px;
 }
 
-.results__content{
+.results__content {
   padding: 2.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.results__name{
+.results__name {
   width: 100%;
   font-size: 36px;
   line-height: 35px;
@@ -59,41 +59,41 @@
   white-space: nowrap;
 }
 
-.results__inner-item{
+.results__inner-item {
   max-width: 180px;
 }
 
-.results__section{
+.results__section {
   font-size: 25px;
   line-height: 40px;
 }
 
-.results__score{
+.results__score {
   font-size: 25px;
   line-height: 40px;
   font-weight: 700;
 }
 
-.results__band-score{
+.results__band-score {
   max-width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.results__band-score-text{
+.results__band-score-text {
   font-size: 25px;
   line-height: 40px;
   font-weight: bold;
 }
 
-.results__real-band-score{
+.results__real-band-score {
   font-size: 35px;
   line-height: 40px;
   font-weight: 700;
 }
 
-.slider-btn{
+.slider-btn {
   width: 50px;
   border-radius: 10px;
   background: #323232;
@@ -104,7 +104,7 @@
   top: 0;
   right: 80px;
 
-  i{
+  i {
     margin: auto;
     font-size: 40px;
     position: absolute;
@@ -114,7 +114,7 @@
   }
 }
 
-.prev-btn{
+.prev-btn {
   width: 50px;
   border-radius: 10px;
   background: #323232;
@@ -125,12 +125,36 @@
   top: 0;
   right: 20px;
 
-  i{
+  i {
     margin: auto;
     font-size: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .results__title {
+    font-size: 38px;
+  }
+
+  .results__name {
+    font-size: 26px;
+  }
+
+  .results__band-score-text {
+    font-size: 20px;
+  }
+
+  .results__real-band-score {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .results__content {
+    padding: 5px;
   }
 }

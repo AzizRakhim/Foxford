@@ -8,7 +8,7 @@ import iroda from "../../assets/images/iroda.jpg";
 
 function Results() {
   function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
       <div
         className={"slider-btn"}
@@ -21,7 +21,7 @@ function Results() {
   }
 
   function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
       <div
         className={"prev-btn"}
@@ -44,29 +44,32 @@ function Results() {
     prevArrow: <SampleNextArrow />,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
+        breakpoint: 1900,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 800,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
         }
-      }
+      },
     ]
   };
 
@@ -87,11 +90,11 @@ function Results() {
           {ielts.map(item => {
             return (
               <div className='results__item' key={item.id}>
-                <div className='results__inner d-flex col-12'>
-                  <div className='results__img-box col-6'>
+                <div className='results__inner d-flex col-12 flex-wrap'>
+                  <div className='results__img-box col-12 col-lg-12 col-xl-6'>
                     <img src={item.img} alt={item.name} />
                   </div>
-                  <div className='results__content col-6'>
+                  <div className='results__content col-12 col-lg-12 col-xl-6'>
                     <span className='results__name'>
                       {item.name} <br /> {item.lastname}
                     </span>
@@ -143,11 +146,11 @@ function Results() {
             )
           })}
           <div className='results__item'>
-            <div className='results__inner d-flex col-12'>
-              <div className='results__img-box col-6'>
+            <div className='results__inner d-flex col-12 flex-wrap'>
+              <div className='results__img-box col-12 col-lg-12 col-xl-6'>
                 <img src={iroda} alt={"Iroda"} />
               </div>
-              <div className='results__content col-6'>
+              <div className='results__content col-12 col-lg-12 col-xl-6'>
                 <span className='results__name'>
                   {"Irodaxon"} <br /> Xusniddinova
                 </span>
