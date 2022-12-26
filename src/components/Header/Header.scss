@@ -182,12 +182,16 @@
     position: absolute;
     top: 0;
     right: -40%;
-    background-color: #fff;
+    background-color: #ed80fd;
     width: 40%;
     min-height: 100vh;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding-top: 50px;
-    z-index: 1000;
+    z-index: 10000000000;
+
+    a {
+      color: #fff;
+    }
 
     .header__menu-x-btn {
       display: block;
@@ -198,22 +202,23 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #ed80fd;
-      border: 1px solid #ed80fd;
+      background: #fff;
+      border: 1px solid #fff;
       border-radius: 8px;
       transition: 0.2s;
 
       &:hover {
-        background-color: transparent;
+        background-color: #ed80fd;
+        border-color: #fff;
 
         .bx {
-          color: #ed80fd;
+          color: #fff;
         }
       }
 
       .bx {
         transition: 0.2s;
-        color: #ffff;
+        color: #ed80fd;
       }
     }
   }

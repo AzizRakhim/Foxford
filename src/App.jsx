@@ -22,8 +22,8 @@ function App() {
           <Advantages />
           <Results />
           <Contact />
-          {/*<Location />
-          <Footer /> */}
+          <Location />
+          <Footer />
         </>}
       />
     </Routes>

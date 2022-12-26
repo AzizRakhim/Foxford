@@ -1,115 +1,119 @@
-import React from 'react';
+import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 function Footer() {
+  const { t } = useTranslation(["footer"]);
+
   return (
-    <footer className='footer'>
+    <footer className="footer">
       <div className="container">
-        <div className='footer__top d-flex'>
-          <div className='footer__info'>
-            <div className='footer__logo-box'>
+        <div className="footer__top d-flex">
+          <div className="footer__info">
+            <div className="footer__logo-box">
               <Link to={"/"} className="footer__logo-link">
                 foxford
               </Link>
             </div>
-            <p className='footer__text'>
-              But i must explain to you how all this mistaken idea denouncing pleasure and praising pain was born and i will give you
+            <p className="footer__text">
+              {t("unlocked")} <br /> {t("unlockEnglish")}
             </p>
-            <button className='footer__btn general-btn'>
-              Join
-            </button>
+            <button className="footer__btn general-btn">{t("join")}</button>
           </div>
-          <nav className='footer__nav'>
-            <h3 className='footer__list-title'>
-              Platform
-            </h3>
-            <ul className='footer__list list-unstyled p-0 m-0'>
+          <nav className="footer__nav">
+            <h3 className="footer__list-title">{t("platform")}</h3>
+            <ul className="footer__list list-unstyled p-0 m-0">
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  Overview
-                </Link>
+                <a href="#" className="footer__item-link">
+                  {t("overview")}
+                </a>
               </li>
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  Features
-                </Link>
+                <a href={"#better"} className="footer__item-link">
+                  {t("home:features")}
+                </a>
               </li>
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  About
-                </Link>
+                <a href={"#advantages"} className="footer__item-link">
+                  {t("home:about")}
+                </a>
               </li>
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  Pricing
-                </Link>
+                <a href={"#results"} className="footer__item-link">
+                  {t("home:results")}
+                </a>
               </li>
             </ul>
           </nav>
-          <div className='footer__div mr'>
-            <h3 className='footer__list-title'>
-              Help
-            </h3>
-            <ul className='footer__list list-unstyled p-0 m-0'>
+          <div className="footer__div mr">
+            <h3 className="footer__list-title">{t("help")}</h3>
+            <ul className="footer__list list-unstyled p-0 m-0">
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  How does it work?
-                </Link>
+                <a href={"#results"} className="footer__item-link">
+                  {t("whatResults")}
+                </a>
               </li>
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  Where to ask questions?
-                </Link>
+                <a href={"#contact"} className="footer__item-link">
+                  {t("questions")}
+                </a>
               </li>
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  How to pay?
-                </Link>
+                <a href={"#location"} className="footer__item-link">
+                  {t("located")}
+                </a>
               </li>
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  What is needed for this?
-                </Link>
+                <a href={"#plans"} className="footer__item-link">
+                  {t("price")}
+                </a>
               </li>
             </ul>
           </div>
-          <div className='footer__div ml'>
-            <h3 className='footer__list-title'>
-              Contacts
-            </h3>
-            <ul className='footer__list list-unstyled p-0 m-0'>
+          <div className="footer__div ml">
+            <h3 className="footer__list-title">{t("contacts")}</h3>
+            <ul className="footer__list list-unstyled p-0 m-0">
               <li className="footer__item">
-                <Link to={"/overview"} className="footer__item-link">
-                  (716) 532-3577
-                </Link>
+                <a href={"tel:+998997906003"} className="footer__item-link">
+                  +998 (99) 790-60-03
+                </a>
               </li>
               <li className="footer__item">
                 <Link to={"/overview"} className="footer__item-link">
-                  116 Archer Rd <br />
-                  Broadalbin, New York(NY), 12025
+                  {t("location:realStreet")} <br />
+                  {t("location:yangikurgan")}, Namangan, 161201
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-        <div className='footer__bottom d-flex justify-content-between'>
-          <div className='footer__rights'>
-            @FOXFORD 2015 - 2022. All rights reserved.
+        <div className="footer__bottom d-flex justify-content-between">
+          <div className="footer__rights">
+            @FOXFORD 2015 - 2022. {t("rights")}
           </div>
-          <div className='footer__social-links'>
-            <Link to={"/"} className='footer__social-btn'>
-              <i className='bx bxl-telegram'></i>
+          <div className="footer__social-links">
+            <a
+              href={"https://t.me/Foxford_time"}
+              className="footer__social-btn"
+            >
+              <i className="bx bxl-telegram"></i>
               Telegram: @Foxford_time
-            </Link>
-            <div className='footer__me'>
-              Designed and created by <Link to={"/"} className={"footer__me-colored"}>Aziz Rakhim</Link>
+            </a>
+            <div className="footer__me">
+              {t("creator")}{" "}
+              <a
+                href={"https://t.me/AzizRakhim_17"}
+                className={"footer__me-colored"}
+              >
+                Aziz Rakhim
+              </a>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

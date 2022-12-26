@@ -1,0 +1,95 @@
+{
+  "home": {
+    "courses": "Kurslar",
+    "features": "Xususiyatlari",
+    "about": "Haqida",
+    "results": "Natijalar",
+    "uz": "O'zbek",
+    "ru": "Rus",
+    "en": "Ingliz",
+    "signUp": "Ro'yxatdan o'tish",
+    "title": "O'z mahoratingizni rivojlantiring",
+    "description": "5 yil davomida 1000 dan ortiq kishi 'FoxFord' o'quv markazida tahsil oldi",
+    "start": "Boshlash",
+    "discount": "Chegirma"
+  },
+  "better": {
+    "title": "Nima uchun biz boshqalardan yaxshiroqmiz",
+    "text": "Ko'p talabalarimiz birinchi urinishda IELTS dan 7.0 yoki undan yuqori ballga erishdilar",
+    "convenient": "Qulay o'qish jadvali",
+    "checked": "O'qituvchilar tomonidan uy vazifalari tekshiriladi",
+    "modern": "Zamonaviy internet platformasi"
+  },
+  "reverse": {
+    "improve": "Biz o'qitish jarayonini takomillashtirmoqdamiz",
+    "years": "ko'p yillar davomida",
+    "improveText": "Sayohatimizni boshlaganimizga 5 yil bo'ldi. O'shandan beri biz minglab talabalarga saboq berdik va har tomonlama o'sib bormoqdamiz. Ayniqsa, ingliz tilini hamma uchun oson o‘rganishi uchun o‘qitish uslubimizga katta e’tibor qaratdik. Demak, o‘qitish uslublarimiz eng zamonaviy.",
+    "practice": "Istalgan vaqtda mashq qilishingiz mumkin",
+    "time": "o'zingiz uchun qulay bo'lgan",
+    "practiceText": "Siz o'zingiz uchun mos bo'lgan istalgan vaqtda o'qishingiz mumkin. Biz kun bo'yi kurslarni taklif qilamiz. Ishingiz va shaxsiy hayotingizni inobatga olgan holda siz ertalab ham, kechqurun ham o'qishingiz mumkin."
+  },
+  "plans": {
+    "plans": "Bu erda barcha kurs turlarimiz",
+    "description": "Biz yoshi va jinsidan qat'i nazar, hamma uchun kurslarni taklif qilamiz. O'zingizga eng mos keladigan rejani tanlang.",
+    "kids": "Bolalar",
+    "kidsText": "Ushbu dastur 12 va 14 yoshdagi bolalar uchun mo'ljallangan.",
+    "month": "oylar",
+    "check": "Uy vazifasini tekshirish",
+    "task": "Qo'shimcha amaliy topshiriqlar",
+    "advice": "O'qituvchilarning maslahati",
+    "general": "General",
+    "generalText": "Bu ingliz tili haqida hech narsa bilmaydigan odamlar uchun",
+    "academic": "Akademik",
+    "academicText": "Biroz murakkab. Demak, ingliz tilidan boshlang'ich bilim talab qiladi"
+  },
+  "advantage": {
+    "title": "'FoxFord' o'quv markazining afzalliklari",
+    "text": "Talabalarimizning har biri quyidagi afzalliklarga ega bo'ladi",
+    "advOne": "Talabalarni imtihonlarga tayyorlashda 3-5 yillik tajribaga ega repetitorlar. Talabalarimiz IELTS ballari 8,5 gacha.",
+    "advTwo": "Butun Oʻzbekistondagi eng yaxshi oʻqitish tizimlaridan biri.",
+    "advThree": "Qo'llab-quvvatlash. Guruh ba'zi mavzularni tushunmasa, bepul qo'shimcha darslarga ega bo'lish imkoniyati",
+    "advFour": "Ota-onalar va talabalar uchun imtihon natijalarini kuzatish va FoxFord yangiliklari bilan aloqada bo'lish uchun maxsus onlayn platforma",
+    "advFive": "Darsdan keyin qolib, mashg'ulot qilishni xohlovchi talabalar uchun 24/7 ishlaydigon shinam kovorking joylari",
+    "advSix": "Ish imkoniyatlari - Ingliz tilini yaxshi o'zlashtirgan talabalar FoxFord'da ishlash imkoniyatiga ega",
+    "enroll": "Kursga yoziling"
+  },
+  "results": {
+    "title": "Bizning talabalarimiz",
+    "text": "Talabalarimiz dunyoning TOP universitetlariga Grantlar yutib olishgan. Ular AQSH va boshqa mamlakatlardagi xalqaro universitetlarga oʻqishga qabul qilingan va IELTS dan 8,5 ballgacha erishishgan. Ko‘pchilik talabalarimiz O‘zbekistondagi Vestminster, MDIST va boshqa universitetlar talabalari."
+  },
+  "contact": {
+    "title": "O'quv markazimizga xush kelibsiz!",
+    "text": "Ingliz tili kurslariga yozilish va ingliz tili darajangizni tekshirish uchun ma’lumotlaringizni qoldiring",
+    "name": "Ism...",
+    "surname": "Familiya...",
+    "tel": "Tel...",
+    "textArea": "Fikr va takliflar",
+    "send": "Yuborish",
+    "thirdParty": "Sizning ma'lumotlaringiz uchinchi shaxslarga berilmaydi"
+  },
+  "location": {
+    "title": "'FoxFord' o'quv markazi qayerda joylashgan?",
+    "text": "Biz bilan qanday bog'lanish mumkin?",
+    "street": "Ko'cha",
+    "realStreet": "Prokuratura ko'chasi, 4-uy.",
+    "region": "Mintaqa",
+    "yangikurgan": "Yangiqoʻrgʻon",
+    "orienter": "Orienter",
+    "realOrienter": "Agrobank yonidagi ko'cha"
+  },
+  "footer": {
+    "unlocked": "Ingliz tili qulfdan chiqarilgan",
+    "unlockEnglish": "Foxford bilan ingliz tilini oching.",
+    "join": "Qo'shilish",
+    "platform": "Platforma",
+    "overview": "Umumiy koʻrinish",
+    "help": "Yordam",
+    "whatResults": "Natijalar qanday?",
+    "questions": "Qayerda savol berish kerak?",
+    "located": "U qayerda joylashgan?",
+    "price": "Narxi qancha?",
+    "contacts": "Kontaktlar",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "creator": "Tomonidan ishlab chiqilgan va yaratilgan"
+  }
+}

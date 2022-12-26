@@ -1,0 +1,95 @@
+{
+  "home": {
+    "courses": "Courses",
+    "features": "Features",
+    "about": "About",
+    "results": "Results",
+    "uz": "Uzbek",
+    "ru": "Russian",
+    "en": "English",
+    "signUp": "Sign up",
+    "title": "Develop your skill without diligence",
+    "description": "Over 5 years, more than 1,000 people studied at the 'FoxFord' learning center",
+    "start": "Get Started",
+    "discount": "Discount"
+  },
+  "better": {
+    "title": "Why we are better than others",
+    "text": "Most of our students achieved an IELTS score of 7.0 or above on the first try itself",
+    "convenient": "Convenient study schedule",
+    "checked": "Checked homework by teachers",
+    "modern": "Modern internet platform"
+  },
+  "reverse": {
+    "improve": "We have been improving our teaching process",
+    "years": "for many years",
+    "improveText": "It's been 5 years since we began our journey. Since than we have taught thousands of students and been growing in every way possible. Especially, we paid lots of attention to our teaching methods so as to make English easy to learn for everyone. So our teaching methods are state-of-the-art.",
+    "practice": "You can practice at any",
+    "time": "time convenient for you",
+    "practiceText": "You can study at any time suitable for you. We offer courses around the clock. Taking into consideration your work and personal life, you can study either in the morning or in the evening."
+  },
+  "plans": {
+    "plans": "Here are all our plans",
+    "description": "We offer courses for everyone, regardless of their age and gender. Just go and choose the plan that most suits you.",
+    "kids": "Kids",
+    "kidsText": "This programme is aimed for children around the age 12 and 14.",
+    "month": "months",
+    "check": "Homework Check",
+    "task": "Additional Practical Tasks",
+    "advice": "Personal advice from teachers",
+    "general": "General",
+    "generalText": "This is for people who doesn't know a thing about English",
+    "academic": "Academic",
+    "academicText": "A little bit advanced. Hence, basic knowledge of English is required"
+  },
+  "advantage": {
+    "title": "The advantages of “FoxFord” learning center",
+    "text": "Each of our students will have the following advantages",
+    "advOne": "Tutors with 3-5 years of experience in preparing students for exams. Students IELTS scores are up to 8.5.",
+    "advTwo": "One of the best teaching methods in whole Uzbekistan.",
+    "advThree": "Support. The opportunity to have free additional lessons when the group does not understand certain topics",
+    "advFour": "A special online platform for parents and students to monitor their exam results and stay in touch with FoxFord news",
+    "advFive": "Cosy co-working spaces open 24/7 for students who want to stay and study after the classes",
+    "advSix": "Job opportunities - Students who have mastered the English language well have the opportunity to work at FoxFord",
+    "enroll": "Enroll in the course"
+  },
+  "results": {
+    "title": "Our students",
+    "text": "Our students won GRANTS to TOP universities in the world. They got accepted to international universities in the USA and other countries and got up to 8.5 IELTS scores. Many of our students are students of Westminster, MDIST and other universities in Uzbekistan."
+  },
+  "contact": {
+    "title": "Welcome to our learning centre!",
+    "text": "Leave your details to enroll in our English classes and check your English level",
+    "name": "Name...",
+    "surname": "Surname...",
+    "tel": "Tel...",
+    "textArea": "Thoughts and suggestions",
+    "send": "Send",
+    "thirdParty": "Your data will not be given to third parties"
+  },
+  "location": {
+    "title": "Where is 'FoxFord' educational center located?",
+    "text": "How to contact us?",
+    "street": "Street",
+    "realStreet": "Prokurotura street, 4th house.",
+    "region": "Region",
+    "yangikurgan": "Yangikurgan",
+    "orienter": "Orienter",
+    "realOrienter": "Street next to Agrobank"
+  },
+  "footer": {
+    "unlocked": "English unlocked",
+    "unlockEnglish": "Unlock English with Foxford.",
+    "join": "Join",
+    "platform": "Platform",
+    "overview": "Overview",
+    "help": "Help",
+    "whatResults": "What are the results?",
+    "questions": "Where to ask questions?",
+    "located": "Where is it located?",
+    "price": "What is the price?",
+    "contacts": "Contacts",
+    "rights": "All rights reserved.",
+    "creator": "Designed and created by"
+  }
+}

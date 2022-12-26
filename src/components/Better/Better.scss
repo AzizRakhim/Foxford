@@ -1,14 +1,15 @@
-#better{
+#better {
+  padding-top: 137px;
   margin-bottom: 137px;
 }
 
-.better__list{
+.better__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 57px;
 }
 
-.better__list-title{
+.better__list-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 120%;
@@ -17,60 +18,60 @@
   max-width: 258px;
 }
 
-.general-text{
+.general-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: #454868;
 }
 
-.better__item{
-  &:not(:first-child){
+.better__item {
+  &:not(:first-child) {
     background: #fff;
     box-shadow: 0px 10px 50px rgba(135, 0, 152, 0.09);
     border-radius: 48px;
   }
 
-  &:first-child{
+  &:first-child {
     margin-bottom: 125px;
   }
 
-  &:nth-child(2){
+  &:nth-child(2) {
     padding: 26px 62px;
     margin-bottom: 125px;
   }
 
-  &:nth-child(3){
+  &:nth-child(3) {
     margin-top: 125px;
     padding: 45px 21px;
   }
 
-  &:last-child{
+  &:last-child {
     padding: 39px 51px;
     margin-bottom: 125px;
   }
 
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
 
-.schedule__holder{
+.schedule__holder {
   padding-left: 23px;
   margin-bottom: 50px;
 }
 
-.check__holder{
+.check__holder {
   margin-bottom: 75px;
 }
 
-.platform__holder{
+.platform__holder {
   margin-bottom: 89px;
 }
 
-.better__item-title{
+.better__item-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 130%;
@@ -78,32 +79,32 @@
   max-width: 134px;
 }
 
-.pl{
+.pl {
   max-width: 180px;
   padding-left: 44px;
 }
 
 @media screen and (max-width: 1250px) {
-  .better__list{
+  .better__list {
     grid-template-columns: repeat(2, 1fr);
 
-    img{
+    img {
       width: 50%;
       height: 100%;
       object-fit: cover;
     }
   }
 
-  .better__item{
+  .better__item {
     margin-bottom: 20px !important;
     margin-top: 0 !important;
 
-    & > div{
+    &>div {
       display: flex;
       justify-content: center;
     }
 
-    .better__item-title{
+    .better__item-title {
       max-width: 100%;
       text-align: center;
       padding-left: 0;
@@ -112,20 +113,20 @@
 }
 
 @media screen and (max-width: 992px) {
-  .better__list-title{
+  .better__list-title {
     font-size: 38px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .better__list-title{
+  .better__list-title {
     font-size: 28px;
   }
 
-  .better__list{
+  .better__list {
     grid-template-columns: repeat(1, 1fr);
 
-    img{
+    img {
       width: 30%;
       height: 100%;
       object-fit: cover;
@@ -134,8 +135,8 @@
 }
 
 @media screen and (max-width: 576px) {
-  .better__list{
-    img{
+  .better__list {
+    img {
       width: 60%;
       height: 100%;
       object-fit: cover;
