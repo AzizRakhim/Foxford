@@ -20,8 +20,8 @@ function Contact() {
   const onSubmit = (data) => {
     emailjs
       .sendForm(
-        "service_shal8ho",
-        "template_hcos0jr",
+        "service_th0pp38",
+        "template_jg74n0m",
         form.current,
         "frw9wN4zpY-axT1k2"
       )
