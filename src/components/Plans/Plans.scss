@@ -117,3 +117,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 576px) {
+  #plans {
+    padding-top: 50px;
+  }
+}

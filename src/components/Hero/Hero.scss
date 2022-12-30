@@ -134,6 +134,11 @@
 }
 
 @media screen and (max-width: 576px) {
+  .hero__wrapper {
+    margin-top: 60px;
+    border-radius: 30px 30px 200px 30px;
+  }
+
   .hero__img {
     width: 100%;
     transform: translateY(-20px);
@@ -159,5 +164,17 @@
   .hero__container {
     padding: 15px;
     padding-top: 30px;
+  }
+
+  .hero__text {
+    margin-bottom: 35px;
+  }
+
+  .general-btn {
+    padding: 7px 35px;
+  }
+
+  .hero__btn--simple {
+    padding: 7px 35px;
   }
 }

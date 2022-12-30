@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-body{
+body {
   min-height: 100vh;
   background-color: #fff;
   font-family: 'Jost', sans-serif;
@@ -15,17 +15,23 @@ body{
   margin: 0 auto;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 20px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #efefef;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #c5c5c5;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
 }

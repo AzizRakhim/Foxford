@@ -1,89 +1,95 @@
-#reverse{
+#reverse {
   padding-bottom: 125px;
   background: rgba(237, 128, 253, 0.05);
 }
 
-.reverse__item{
-  &:first-child{
+.reverse__item {
+  &:first-child {
     margin-bottom: 9px;
 
-    .reverse__img-box{
+    .reverse__img-box {
       margin-right: 25px;
     }
   }
 
-  &:last-child{
+  &:last-child {
     flex-direction: row-reverse;
 
-    .reverse__content{
+    .reverse__content {
       margin-right: 57px;
     }
   }
 }
 
-.reverse__img-box{
+.reverse__img-box {
   width: 52%;
 
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
 
-.reverse__content{
+.reverse__content {
   width: 48%;
   max-width: 530px;
 }
 
-.reverse__title{
+.reverse__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 120%;
   color: #010851;
   margin-bottom: 38px;
 
-  &--pink{
+  &--pink {
     color: #ed80fd;
   }
 }
 
-.reverse__text{
+.reverse__text {
   margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1250px) {
-  .reverse__title{
+  .reverse__title {
     font-size: 38px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .reverse__title{
+  .reverse__title {
     font-size: 28px;
   }
 
-  .reverse__btn{
+  .reverse__btn {
     padding: 15px 35px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .reverse__item{
+  .reverse__item {
     flex-direction: column !important;
 
-    & > div{
+    &>div {
       width: 100%;
       margin-right: 0 !important;
 
-      img{
+      img {
         width: 80%;
       }
     }
   }
 
-  .reverse__img-box{
+  .reverse__img-box {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #reverse {
+    padding-bottom: 25px;
   }
 }

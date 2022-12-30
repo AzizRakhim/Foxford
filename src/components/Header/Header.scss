@@ -163,6 +163,10 @@
   align-items: center;
   justify-content: center;
   display: none;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
 
   .bx {
     font-size: 40px;
@@ -175,7 +179,7 @@
 
 @media screen and (max-width: 992px) {
   .header__menu-btn {
-    display: block;
+    display: flex;
   }
 
   .header__nav {
@@ -270,15 +274,33 @@
 }
 
 @media screen and (max-width: 576px) {
+  .header {
+    padding: 10px 0;
+  }
+
   .header__nav {
     width: 90%;
     right: -90%;
+  }
+
+  .header__menu-btn {
+    width: 30px;
+    height: 30px;
+
+    .bx-menu {
+      font-size: 25px;
+    }
   }
 
   .header__settings {
     width: 90%;
     right: -90%;
   }
+
+  .header__logo-link {
+    font-size: 25px;
+  }
+
 }
 
 
