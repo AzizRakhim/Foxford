@@ -157,7 +157,21 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
+  #results {
+    padding-top: 50px;
+  }
+
+  .results__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .results__text {
+    width: 90%;
+    margin-bottom: 24px;
+  }
+
   .results__content {
     padding: 5px;
   }

@@ -90,6 +90,20 @@
 
 @media screen and (max-width: 576px) {
   #reverse {
-    padding-bottom: 25px;
+    padding-bottom: 0;
+  }
+
+  .reverse__title {
+    margin-bottom: 24px;
+  }
+
+  .reverse__btn {
+    padding: 7px 35px;
+  }
+
+  .reverse__item:nth-child(2) {
+    .reverse__img-box {
+      margin-bottom: 20px;
+    }
   }
 }

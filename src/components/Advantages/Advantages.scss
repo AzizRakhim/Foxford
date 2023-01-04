@@ -60,3 +60,31 @@
     font-size: 28px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  #advantages {
+    padding-top: 50px;
+  }
+
+  .advantages__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .advantages__text {
+    margin-bottom: 24px;
+  }
+
+  .advantages__list {
+    padding: 7px;
+  }
+
+  .advantages__item {
+    padding: 0 7px;
+    margin: 13px 0;
+  }
+
+  .advantages__btn {
+    margin-top: 20px !important;
+  }
+}

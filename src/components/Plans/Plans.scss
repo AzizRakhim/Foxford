@@ -122,4 +122,35 @@
   #plans {
     padding-top: 50px;
   }
+
+  .plans__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .plans__text {
+    margin-bottom: 24px;
+  }
+
+  .plans__item {
+    padding: 40px 30px;
+  }
+
+  .plans__item-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .plans__item-text {
+    margin-bottom: 24px;
+  }
+
+  .plans__money-box {
+    margin-bottom: 24px;
+    font-size: 35px;
+  }
+
+  .plans__btn {
+    padding: 7px 35px;
+  }
 }
